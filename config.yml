@@ -1,0 +1,20 @@
+dagger:
+  # Base item of the Blood Dagger (any sword material works)
+  material: IRON_SWORD
+
+kills:
+  # Count mob kills as well as player kills?
+  count-mobs: false
+  # Only count kills if the killer has the dagger in their inventory?
+  require-dagger: true
+  # Kills needed for each tier
+  tier1: 3   # invis + speed 1 + Bloodlust ability
+  tier2: 5   # invis + speed 2 + strength 2
+
+bloodlust:
+  duration-seconds: 15
+  cooldown-seconds: 45
+  # Each time you TAKE damage, your attack damage goes up by this percent...
+  percent-per-hit: 3
+  # ...up to this maximum percent
+  max-percent: 30

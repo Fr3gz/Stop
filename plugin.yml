@@ -1,0 +1,14 @@
+name: BloodDagger
+version: '${project.version}'
+main: dev.blooddagger.BloodDaggerPlugin
+api-version: '1.21'
+description: Blood Dagger with kill-based tiers and a Bloodlust ability.
+commands:
+  blooddagger:
+    description: Blood Dagger admin command
+    usage: /<command> <give|kills|setkills|reload>
+    aliases: [bd]
+permissions:
+  blooddagger.admin:
+    description: Use the /blooddagger command
+    default: op
